@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "25d724f6-f64f-4c4d-a25c-fe05727bd98d",
+		"name": "API_Proyectos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tipoProyectos",
+			"item": [
+				{
+					"name": "Consultar tipoProyectos",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Crear tipoProyecto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"ensayo\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:4001/api/tiposproyectos",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"api",
+								"tiposproyectos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": []
+		},
+		{
+			"name": "Universidades",
+			"item": []
+		},
+		{
+			"name": "Etapas",
+			"item": []
+		},
+		{
+			"name": "Proyectos",
+			"item": []
+		}
+	]
+}
